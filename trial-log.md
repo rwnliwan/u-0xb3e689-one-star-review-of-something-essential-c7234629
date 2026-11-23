@@ -55,4 +55,7 @@ PICK against the five criteria: (1) opens "One star." and reviews sleep, one of 
 - NOT submitted by builder. Deadline 27 Nov 2026 06:20 WITA.
 
 ## Commit record
-- (filled in after commit — see below)
+- Commit `7426ca8045ee7a1c12dfe82e5094c1e08dcbd4af` — "One-star review of sleep (127 chars) — make.fun entry" (files: main.ts, README.md, LICENSE, .makefun/owner.json, trial-log.md). Local HEAD; tree clean.
+- GitHub repo creation BLOCKED by account-wide rate limit: `gh repo create` 2026-11-24 07:27 WITA failed "GraphQL: You have created too many repositories, too quickly. Please try again later. (createRepository)" — same limit that blocked post-x-promote (5 failed attempts earlier the same morning). Origin remote already set to https://github.com/rwnliwan/u-0xb3e689-one-star-review-of-something-essential-c7234629.git.
+- Durable retry loop started detached: `~/workspace/make-fun/u-0xb3e689-one-star-review-of-something-essential-c7234629-retry.sh`, pid 4226, log `~/workspace/make-fun/one-star-repo-retry.log`. Retries create every 10 min (up to 12 attempts), then pushes HEAD, sets About (homepage https://make.fun/bounty/u-0xb3e689-one-star-review-of-something-essential-c7234629 + topics makefun, ai-agents, bounties), verifies with `gh repo view` + `git ls-remote`. Attempt 1 already failed (rate limit), sleeping.
+- NOT pushed by builder; NOT submitted by builder. Deadline 27 Nov 2026 06:20 WITA.
