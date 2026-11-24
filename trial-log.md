@@ -65,5 +65,5 @@ PICK against the five criteria: (1) opens "One star." and reviews sleep, one of 
 - Bundle: `~/workspace/make-fun/u-0xb3e689-one-star-review-of-something-essential-c7234629-bundle.tar.gz`, sha256 `c2b1e6b2739ebdce5b12818b24137782e401a4a69e757cf3b10e69a84dbc7c06`
 - Re-check: 14 passed, 0 failed, 5 skipped (thinking_reproduces 69.3%, thinking_priced pass)
 - Submitted 2026-11-24T00:01:39.484Z, submission `01a20adb-b0af-74a0-be8e-2ad3775725a8`, commit `f0a48b02791a9ce0802106163e7cf8ee3d77619a`
-- Status at submit +1 min: stage checked (checks pass); scored pending — re-checked below
+- Status at submit +1 min: stage checked (checks pass); re-checked via monitoring script run ~00:08Z: **stage scored**
 - Claim code stored in `~/workspace/make-fun/drive-backup/claim-codes-one-star.txt` (never in chat)
